@@ -1,0 +1,68 @@
+Format of the Lacrosse WS2300 messages sent via wireless
+
+Last update: 2018-10-01
+
+INFO ON LACROSSE WS2300 MESSAGES
+=================================
+
+LaCrosse WS-2300 / WS-2310
+
+The packets are transmitted by the Lacrosse weather sensors over the 433.92 Mhz band. 
+The sensor uses ASF modulation and employs OOK (On-Off-Keying) to encode and transmit the data.
+
+BIT1: ~0.350 msec high followed by ~1.320 msec low
+BIT1_HIGH_MIN : 300 msec
+BIT1_HIGH_MAX : 600 msec
+
+BIT0: ~1.550 msec high followed by ~1.280 msec low
+BIT0_HIGH_MIN  : 1300 msec
+BIT0_HIGH_MAX  : 1600 msec
+
+limits :
+BIT_HIGH_MIN  300 msec
+BIT_HIGH_MAX  1600 msec
+BIT_LOW_MIN   1100 msec
+BIT_LOW_MAX   1400 msec
+
+the WS-2300-25 uses binary 00001001 (0x09) as preamble/sync byte to begin the transmission of a packet.
+
+The Packet Format is composed of 53 bits / 13 nibbles:
+
+ n. |  BITS    | Field data
+  0 |  0 ..  3 | 4 bit HI preamble / synch
+  1 |  4 ..  7 | 4 bit LO preamble / synch
+  2 |  8 .. 11 | Type  GPTT  G=0, P=Parity, Gust=Gust, TT=Type  GTT 000=Temp, 001=Humidity, 010=Rain, 011=Wind, 111-Gust
+  3 | 12 .. 15 | ID High
+  4 | 16 .. 19 | ID Low
+  5 | 20 .. 23 | Data Types  GWRH  G=Gust Sent, W=Wind Sent, R=Rain Sent, H=Humidity Sent
+  6 | 24 .. 27 | Parity TUU? T=Temp Sent, UU=Next Update, 00=8 seconds, 01=32 seconds, 10=?, 11=128 seconds, ?=?
+  7 | 28 .. 31 | Value1
+  8 | 32 .. 35 | Value2
+  9 | 36 .. 39 | Value3
+ 10 | 40 .. 43 | ~Value1
+ 11 | 44 .. 47 | ~Value2
+ 12 | 48 .. 51 | CheckSum = Nibble sum of nibbles 0-11
+
+Info
+
+ID: random sensor identification that is generated when the sensor is powered up. 
+    IMPORTANT: 
+    If the sensor loses power a new id will be generated when power is restored.
+
+Wind gust:
+From Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/Wind_gust
+A gust or wind gust is a brief increase in the speed of the wind, usually less than 20 seconds.
+
+UU: Next Update
+This field indicates the period that the sensor is going to wait before sending the next group of packets.
+00 = 8 seconds
+01 = 32 seconds
+11 = 128 seconds
+
+REFERENCES
+
+Module lacrossews.c rtl_433 project 
+https://github.com/merbanan/rtl_433
+
+ 

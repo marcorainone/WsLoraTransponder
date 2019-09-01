@@ -1,0 +1,107 @@
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/marco/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+
+	Consider using "-M newmodel" to transition to new model keys. This will become the default someday.
+	A table of changes and discussion is at https://github.com/merbanan/rtl_433/pull/986.
+
+Registered 99 out of 126 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 62-63 67-71 73-100 102-103 108-116 119 121 124-126 ]
+Detached kernel driver
+Found Rafael Micro R820T tuner
+Exact sample rate is: 250000.000414 Hz
+[R82XX] PLL not locked!
+Sample rate set to 250000 S/s.
+Tuner gain set to Auto.
+Tuned to 433.920MHz.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:28:27
+model     : LaCrosse WS
+id        : 120
+Temperature: 26.2 C
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:28:27
+model     : LaCrosse WS
+id        : 120
+Humidity  : 79
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:28:27
+model     : LaCrosse WS
+id        : 120
+Wind speed: 0.0 m/s
+Direction : 45.000
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:28:27
+model     : LaCrosse WS
+id        : 120
+Temperature: 26.2 C
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:28:28
+model     : LaCrosse WS
+id        : 120
+Humidity  : 79
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:28:28
+model     : LaCrosse WS
+id        : 120
+Wind speed: 0.0 m/s
+Direction : 45.000
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:30:35
+model     : LaCrosse WS
+id        : 120
+Temperature: 26.2 C
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:30:35
+model     : LaCrosse WS
+id        : 120
+Humidity  : 79
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:30:36
+model     : LaCrosse WS
+id        : 120
+Rainfall  : 0.00 mm
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:30:36
+model     : LaCrosse WS
+id        : 120
+Wind speed: 0.0 m/s
+Direction : 45.000
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:30:36
+model     : LaCrosse WS
+id        : 120
+Temperature: 26.2 C
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:30:36
+model     : LaCrosse WS
+id        : 120
+Humidity  : 79
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:30:37
+model     : LaCrosse WS
+id        : 120
+Rainfall  : 0.00 mm
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:30:37
+model     : LaCrosse WS
+id        : 120
+Wind speed: 0.0 m/s
+Direction : 45.000
+Signal caught, exiting!
+Reattached kernel driver

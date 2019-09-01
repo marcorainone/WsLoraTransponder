@@ -1,0 +1,1099 @@
+rtl_433 version unknown inputs file rtl_tcp RTL-SDR
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/marco/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+
+	Consider using "-M newmodel" to transition to new model keys. This will become the default someday.
+	A table of changes and discussion is at https://github.com/merbanan/rtl_433/pull/986.
+
+Registered 99 out of 126 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 62-63 67-71 73-100 102-103 108-116 119 121 124-126 ]
+Detached kernel driver
+Found Rafael Micro R820T tuner
+Exact sample rate is: 250000.000414 Hz
+[R82XX] PLL not locked!
+Sample rate set to 250000 S/s.
+Tuner gain set to Auto.
+Tuned to 433.920MHz.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:48:15
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:48:15
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:48:15
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:48:33
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 79
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:48:33
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 79
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:48:33
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 79
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:48:51
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:48:51
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:48:51
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:49:09
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 79
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:49:09
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 79
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:49:09
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 79
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:49:27
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:49:27
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:49:27
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:49:45
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 79
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:49:45
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 79
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:49:45
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 79
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:50:03
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:50:03
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:50:03
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:50:21
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:50:21
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:50:21
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:50:39
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:50:39
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:50:39
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:50:57
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:50:57
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:50:57
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:51:15
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:51:15
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:51:15
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:51:33
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:51:33
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:51:33
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.6 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:51:51
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:51:51
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:51:51
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:52:09
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:52:09
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:52:09
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:52:27
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:52:27
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:52:27
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:52:45
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:52:45
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:52:45
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:53:03
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:53:03
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:53:03
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:53:21
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:53:21
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:53:21
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:53:39
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:53:39
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:53:39
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:53:57
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:53:57
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:53:57
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:54:15
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:54:15
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:54:15
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:54:33
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:54:33
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:54:33
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:54:51
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:54:51
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:54:51
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:55:09
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:55:09
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:55:09
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:55:27
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:55:27
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:55:27
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:55:45
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:55:45
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:55:45
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 80.8 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:56:03
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:56:03
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:56:03
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:56:21
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 81.0 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:56:21
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 81.0 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:56:21
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 81.0 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:56:39
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:56:39
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:56:39
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 49
+wind_speed: 0.0 km/h
+wind_dir_deg: 225.0
+Rainfall Accumulation: 0.00 in
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:56:57
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 0
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 81.0 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:56:57
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 1
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 81.0 F
+humidity  : 78
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+time      : 2019-08-28 17:56:57
+model     : Acurite 5n1 sensor
+sensor_id : 259
+channel   : A
+sequence_num: 2
+battery   : OK
+message_type: 56
+wind_speed: 0.0 km/h
+temperature: 81.0 F
+humidity  : 78
+Signal caught, exiting!
+Reattached kernel driver

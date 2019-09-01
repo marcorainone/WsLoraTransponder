@@ -1,0 +1,32 @@
+function Decoder(bytes, port) {
+	var deco = {};
+	var wordValue;
+	deco.idMsg = (bytes[0]<<24) + (bytes[1]<<16) + (bytes[2]<<8) + (bytes[3]);
+	deco.time = (bytes[4]<<24) + (bytes[5]<<16) + (bytes[6]<<8) + (bytes[7]);
+	deco.SensorId = (bytes[8]<<8) + (bytes[9]);
+	deco.WindSpeed_kph = (bytes[10]<<8) + (bytes[11]);
+	deco.WindSpeed_kph = deco.WindSpeed_kph / 10.0;
+	deco.WindDirection_Pos = bytes[12] & 0x0F;
+	deco.Rainfall = (bytes[13]<<8) + (bytes[14]);
+	deco.Rainfall = deco.Rainfall / 100.0;
+	deco.ActiveRain = bytes[15] & 0x01;
+	deco.RainTmSpan = (bytes[16]<<24) + (bytes[17]<<16) + (bytes[18]<<8) + (bytes[19]);
+	deco.Temp = (bytes[20]<<8) + (bytes[21]);
+	var sign = bytes[20] & (1 << 7);
+	if(sign)
+	{
+		deco.Temp = 0xFFFF0000 | deco.Temp;
+	}
+	deco.Temp = deco.Temp / 10.0;
+	deco.Hum = bytes[22];
+	if(deco.Hum > 99)
+		deco.Hum = 99;
+	deco.BattLow = bytes[23] & 0x01;
+	deco.VBatt = bytes[24];
+	deco.VBatt = deco.VBatt / 10.0;
+	deco.Bmp180temp = (bytes[25]<<8) + (bytes[26]);
+	deco.Bmp180temp = deco.Bmp180temp / 10.0;
+	deco.Bmp180press = (bytes[27]<<8) + (bytes[28]);
+	deco.Bmp180press = deco.Bmp180press / 10.0;
+	return deco;
+}

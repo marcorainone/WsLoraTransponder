@@ -1,0 +1,40 @@
+#######################################
+# Syntax Coloring Map For BMP180
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+BMP180	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init	KEYWORD2
+readID	KEYWORD2
+getID	KEYWORD2
+hasValidID	KEYWORD2
+readCalibrationData	KEYWORD2
+reset	KEYWORD2
+selectRegister	KEYWORD2
+measure	KEYWORD2
+readByteFromRegister	KEYWORD2
+readIntFromRegister	KEYWORD2
+readLongFromRegister	KEYWORD2
+measureTemperature	KEYWORD2
+measurePressure	KEYWORD2
+calculateB5	KEYWORD2
+compensateTemperature	KEYWORD2
+compensatePressure	KEYWORD2
+formatTemperature	KEYWORD2
+formatPressure	KEYWORD2
+getPressure	KEYWORD2
+getTemperature	KEYWORD2
+setSamplingMode	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

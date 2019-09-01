@@ -1,0 +1,36 @@
+// ttn decoder lacrosse ws2300
+// https://console.thethingsnetwork.org/applications/test_ws_lacrosse/payload-formats
+//
+function Decoder(bytes, port) {
+	var deco = {};
+	var wordValue;
+	deco.idMsg = (bytes[0]<<24) + (bytes[1]<<16) + (bytes[2]<<8) + (bytes[3]);
+	deco.time = (bytes[4]<<24) + (bytes[5]<<16) + (bytes[6]<<8) + (bytes[7]);
+	deco.SensorId = (bytes[8]<<8) + (bytes[9]);
+	deco.WindSpeed = (bytes[10]<<8) + (bytes[11]);
+	deco.WindSpeed = deco.WindSpeed / 10.0;
+	deco.WindDirection = bytes[12] & 0x0F;
+	deco.GustSpeed = (bytes[13]<<8) + (bytes[14]);
+	deco.GustSpeed = deco.GustSpeed / 10.0;
+	deco.GustDirection = bytes[15] & 0x0F;
+	deco.Rainfall = (bytes[16]<<8) + (bytes[17]);
+	deco.Rainfall = deco.Rainfall * 0.5180;
+	deco.Temp = (bytes[18]<<8) + (bytes[19]);
+	var sign = bytes[18] & (1 << 7);
+	if(sign)
+	{
+		deco.Temp = 0xFFFF0000 | deco.Temp;
+	}
+	deco.Temp = deco.Temp / 10.0;
+	deco.Hum = (bytes[20]<<8) + (bytes[21]);
+	if(deco.Hum > 99)
+		deco.Hum = 99;
+	deco.VBatt = bytes[22];
+	deco.VBatt = deco.VBatt / 10.0;
+	deco.Bmp180temp = (bytes[23]<<8) + (bytes[24]);
+	deco.Bmp180temp = deco.Bmp180temp / 10.0;
+	deco.Bmp180press = (bytes[25]<<8) + (bytes[26]);
+	deco.Bmp180press = deco.Bmp180press / 10.0;
+	return deco;
+}
+

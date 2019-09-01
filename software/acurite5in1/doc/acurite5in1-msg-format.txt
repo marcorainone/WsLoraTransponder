@@ -1,0 +1,130 @@
+Format of the Acurite 5in1 messages sent via wireless
+
+Last update: 2019-04-16
+
+INFO ON ACURITE MESSAGES 5N1
+=============================
+
+The weather station sends two types of messages:
+
+MT_WS_WD_RF='1'   : message '1': FIELDS Wind Speed, Wind Direction, Rainfall
+MT_WS_T_RH ='8'   : message '8': FIELDS Wind speed, Temperature, Humidity
+
+The two messages are sent every 18 seconds.
+Each msg type sent is repeated 2 times
+
+FIELDS OF THE TWO TYPE OF MESSAGES
+===================================
+
+MT_WS_WD_RF='1': msg Wind Speed, Direction and Rainfall
+The message is 8 bytes in size
+
+msg type '1'
+| BIT POSITION          |n. of bit size| Field description
+| 7..6 byte0            |      2       | bit7..6: 2bit channel selection (A,B,C)
+| 5..4 byte0            |      2       | bit5..4: n. ripetizione msg type 1 o 2
+| 3..0 byte0 7..0 byte1 |     12       | 12 bit sensorID (OK, verificato con 6 centraline)
+| 7..6 byte2            |      2       | bit7..6: 2bit Status 01 = batteria ok  10 = low battery
+| 5..0 byte2            |      6       | (dataBytes[2] & 0x3F) = codice msg type ('1')
+| 7..5 byte3            |      3       | bit7..3: 3bit NC (3 BIT UNKNOWN)
+| 4..0 byte3 6..4 byte4 |      8       | 8 bit WindSpeed (stesso dato dell'altro msg type)
+| 7    byte4            |      1       | bit7: 1bit NC (1 BIT UNKNOWN)
+| 3..0 byte4            |      4       | 4 bit WindDirection_Position
+| 7..6 byte5            |      2       | bit7..6: 2bit NC (2 BIT UNKNOWN)
+| 5..0 byte5 6..0 byte6 |     13       | 13 bit Rainfall (rain bucket tips)
+| 7    byte6            |      1       | bit7: 1bit NC (1 BIT UNKNOWN)
+| 7..0 byte7            |      8       | CRC :   binary sum of the previous 7 bytes ( byte0..byte6)
+
+// MT_WS_T_RH ='8': msg Wind speed, Temp, Humidity
+The message is 8 bytes in size
+
+msg type '8'
+| BIT POSITION          |n. of bit size| Field description
+| 7..6 byte0            |      2       | bit7..6: 2bit channel selection (A,B,C)
+| 5..4 byte0            |      2       | bit5..4: n. ripetizione msg type 1 o 2
+| 3..0 byte0 7..0 byte1 |     12       | 12 bit sensorID (OK, verificato con 6 centraline)
+| 7..6 byte2            |      2       | bit7..6: 2bit Status 01 = batteria ok  10 = low battery
+| 5..0 byte2            |      6       | (dataBytes[2] & 0x3F) = codice msg type ('8')
+| 7..5 byte3            |      3       | bit7..3: 3bit NC (3 BIT UNKNOWN)
+| 4..0 byte3 6..4 byte4 |      8       | 8 bit WindSpeed (stesso dato dell'altro msg type)
+| 7    byte4            |      1       | bit7: 1bit NC (1 BIT UNKNOWN)
+| 3..0 byte4 6..0 byte5 |     10       | 10 bit Temperature
+| 7    byte5            |      1       | bit7: 1bit NC (1 BIT UNKNOWN)
+| 6..0 byte6            |      7       | 7 bit %Humidity
+| 7    byte6            |      1       | bit7: 1bit NC (1 BIT UNKNOWN)
+| 7..0 byte7            |      8       | CRC :   binary sum of the previous 7 bytes ( byte0..byte6)
+
+
+Examples:
+
+Message MT_WS_WD_RF='1': msg Wind Speed, Direction and Rainfall
+10:15:23.006 -> [1c2471000fb4f569]  crc = [69]   delta(T) = 14359
+10:15:23.053 -> [2c2471000fb4f579]  crc = [79]   delta(T) = 45
+
+0 | 1c | 2c | bit7..6: 2bit channel selection (A,B,C) bit5..4: repetition number of the msg type
+1 | 24 | 24 | byte HI sensorID
+2 | 71 | 71 | (dataBytes[2] & 0x3F) = msg type code ('1')
+3 | 00 | 00 |
+4 | 0f | 0f | WindDirection_Position
+5 | b4 | b4 | Rainfall HI
+6 | f5 | f5 | Rainfall LO
+7 | 69 | 79 | CRC
+
+Message MT_WS_T_RH ='8': msg Wind speed, Temp, Humidity
+10:15:40.980|[1c24780087504edd]|[dd]|17914
+10:15:41.027|[2c24780087504eed]|[ed]|45
+0 | 1c | 2c | bit7..6: 2bit channel selection (A,B,C) bit5..4: repetition number of the msg type
+1 | 24 | 24 | byte HI sensorID 
+2 | 78 | 78 | (dataBytes[2] & 0x3F) = msg type code ('8')
+3 | 00 | 00 | bit4..0: Wind Speed HI
+4 | 87 | 87 | bit6..4: Wind Speed LO bit3..0: Temp_5n1 HI (4bit)
+5 | 50 | 50 | bit6..0: Temp_5n1 LO (7bit)
+6 | 4e | 4e | Humidity %
+7 | dd | ed | CRC 
+
+Byte 0:
+bit 7..6 byte0: channel selection (A,B,C)
+represents the status of the selection switch of the wireless transmission channel of the weather station A,B,C.
+Based on the position, the status of the two bits takes on these codes
+bit7 bit6
+ 0    0    C position 
+ 1    0    B position (central)
+ 1    1    A position 
+
+bit 5..4 byte0: repetition number. Represents the repetition number of the msg type sent
+bit7 bit6
+ 0    1    msg type 1
+ 1    0    msg type 2
+
+Example of messages with transmission channel selection switch in the C position
+17:59:09.425 -> [1c24710006b4f560] crc = [60]   delta(T) = 17918
+17:59:09.495 -> [2c24710006b4f570] crc = [70]   delta(T) = 45
+17:59:27.444 -> [1c24780087ebccf6] crc = [f6]   delta(T) = 17914
+17:59:27.491 -> [2c24780087ebcc06] crc = [06]   delta(T) = 45
+17:59:45.460 -> [1c24710006b4f560] crc = [60]   delta(T) = 17916
+
+Example of messages with transmission channel selection switch in the B position
+18:16:33.398 -> [9c24710006350672] crc = [72]   delta(T) = 17916
+18:16:33.445 -> [ac24710006350682] crc = [82]   delta(T) = 45
+18:16:51.366 -> [9c24780087f04bfa] crc = [fa]   delta(T) = 17914
+18:16:51.413 -> [ac24780087f04b0a] crc = [0a]   delta(T) = 47
+18:17:09.398 -> [9c24710006350672] crc = [72]   delta(T) = 17916
+18:17:09.445 -> [ac24710006350682] crc = [82]   delta(T) = 45
+
+Example of messages with transmission channel selection switch in the A position
+18:21:39.350 -> [dc24780087f04b3a] crc = [3a]   delta(T) = 17914
+18:21:39.396 -> [ec24780087f04b4a] crc = [4a]   delta(T) = 45
+18:21:57.366 -> [dc2471008e350c40] crc = [40]   delta(T) = 17916
+18:21:57.413 -> [ec2471008e350c50] crc = [50]   delta(T) = 45
+18:22:15.366 -> [dc24780087724bbc] crc = [bc]   delta(T) = 17916
+18:22:15.413 -> [ec24780087724bcc] crc = [cc]   delta(T) = 45
+
+Note:
+delta(T):   time interval (milliseconds) between the end of the previous message and the beginning of the current message
+ 
+REFERENCES
+
+http://www.osengr.org/WxShield/Downloads/Weather-Sensor-RF-Protocols.pdf
+
+
+ 

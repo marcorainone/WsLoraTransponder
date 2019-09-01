@@ -1,0 +1,6 @@
+2019/08/28
+
+Arduino compile results:
+
+Sketch uses 28210 bytes (98%) of program storage space. Maximum is 28672 bytes.
+Global variables use 1457 bytes of dynamic memory.
